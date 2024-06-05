@@ -1,0 +1,52 @@
+.card {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 230px;
+  }
+  
+  .name {
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .icons {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  .favorite {
+    color: red;
+  }
+  
+  .important {
+    color: goldenrod;
+  }
+  
+  .progress {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
